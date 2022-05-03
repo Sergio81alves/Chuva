@@ -7,7 +7,6 @@ body{
 .slaca{
  background: #FFFFFF;
  width: 220px;
- height: 100vh;
  font-family: 'Quicksand', sans-serif;
  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
  
@@ -117,7 +116,8 @@ main{
 
 /*section*/
 section{
-    height: 532px;
+   margin-bottom: 50px;
+   
 }
 .principal--h1{
     font-family: 'Roboto';
@@ -227,11 +227,11 @@ section{
 }
 .resumo--h2{
     background: #FDF1EB;
-    
-    
+    padding-left: 20px;
 }
 .resumo--text{
     text-align: left;
+    padding-left: 20px;
 }
 #pontos{
     color: #ED7839;
@@ -244,6 +244,10 @@ section{
 .discussoes{
     border: 1px solid #ECECEC;
     border-radius: 3px;
+}
+.discussoes--h2{
+    background: #FDF1EB;
+    padding-left: 20px;
 }
 .discussoes__icons{
     text-align: center;
@@ -268,17 +272,27 @@ section{
     Font-size: 14px;
 }
 /*poste*/
-
+.criar{
+    text-align: center;
+    border-top: 1px solid #E7E7E7 ;
+    position: relative;
+    margin: 20px;
+    
+}
 #criar{
     background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%)
     ;
     color: #FFFFFF;
     border: none;
     border-radius: 3px;
+    position: absolute;
+    top: -13px;
+    left: 480px;
 }
 /*div oculta*/
 .discussoes__icons2{
     margin: 15px;
+    display: none;
 }
 .discussoes__icons--title2{
     display: flex;
@@ -308,3 +322,53 @@ section{
     #FEB154 0%, #F1833E 100%);
 
 }
+/*postado */
+#postado{
+    margin: 5px 0 17px;
+    Font-family: 'Quicksand';
+    Font-size: 14px;
+    Line-height: 17.5px;
+    Line-height: 100%;
+}
+.postado__tudo{
+    margin-top: 25px;
+    text-align: left;
+    padding: 17px 23px 18px 24px;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0 0 8px 0  #E7E7E7;
+    border-radius: 3px;
+}
+.postado--titulo{
+    Font-size: 16px;
+    Line-height: 20px;
+    color: #ED7839;
+    display: block;
+    
+}
+.postado--nome{
+    Font-style: Medium;
+    Font-size: 12px;
+    Line-height: 15px;
+    Line-height: 100%;
+    color: #5C5C5C;
+    display: block;
+    margin-bottom: 10px;
+}
+.postado--texto{
+    Font-size: 14px;
+    Line-height: 17.5px;
+    color: #4D4D4D;
+    display: block;
+    margin-bottom: 10px;
+}
+.postado--coracao{
+    margin-left: 15px;
+}
+.postado--gostou{
+    Font-family: 'Segoe UI';
+    Font-style: 'Semilight';
+    Font-size: 14px;
+    Line-height: 18.62px;
+    margin: 0 15px;
+}
+
