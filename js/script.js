@@ -10,3 +10,21 @@ function leiaMais(){
         maisTexto.style.display = "inline"
     }
 }
+function criarPoste(){
+    var mostrado = document.getElementById('icons');
+    var escondido = document.getElementById('icons2')
+   
+    if(escondido.style.display == "none"){
+       escondido.style.display = "inline"
+       mostrado.style.display = "none"
+    }else{
+        escondido.style.display = "none";
+        
+    }
+}
+
+function negrito(){
+    
+   var dotr = document.getElementById('mensagem').value  
+    dotr = dotr.bold()
+}

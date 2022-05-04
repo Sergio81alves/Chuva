@@ -186,7 +186,7 @@
                 
                 <h3 class="discussoes--h2 "><strong>Discussões </strong></h3>
 
-                <div class="discussoes__icons"><!-- discussoes visivel-->
+                <div id="icons" class="discussoes__icons"><!-- discussoes visivel-->
                     <h4 class="discussoes__icons--title">Compartilhe suas ideias ou dúvidas com os autores!</h4>
 
                     <div class="discussoes__icons--icon">
@@ -204,7 +204,7 @@
                     </p>
                 </div><!--fim discussoes visivel-->
 
-                <div class="discussoes__icons2"> <!-- discussoes invisivel-->
+                <div id="icons2" class="discussoes__icons2"> <!-- discussoes invisivel-->
                     <span class="discussoes__icons--title2">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</span>
 
                     <form id="sugestoes" class="discussoes__icons--sugestoes">
@@ -223,7 +223,7 @@
                            
                         
                           <div class="sugestoes__form--input input-group ">
-                            <div class="input-group-prepend">
+                            <div onclick="negrito()" class="input-group-prepend">
                                 <span class="input-group-text"><i class="fas fa-bold"></i></span>
                             </div>
                             <div class="input-group-prepend">
@@ -246,8 +246,8 @@
                     
                 
 
-                <div class="criar">
-                 <button id="criar">
+                <div class="criart">
+                 <button id="criar" onclick="criarPoste()">
                     <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="7" width="3" height="17" rx="1" fill="white"/>
                     <rect y="10" width="3" height="17" rx="1" transform="rotate(-90 0 10)" fill="white"/>
